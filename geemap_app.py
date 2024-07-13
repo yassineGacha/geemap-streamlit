@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_folium import folium_static
-import geemap.eefolium as geemap
+import geemap.folium as geemap
 import ee
 
 # os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
@@ -11,7 +11,7 @@ st.markdown('Source code: <https://github.com/giswqs/geemap-streamlit/blob/main/
 with st.echo():
     import streamlit as st
     from streamlit_folium import folium_static
-    import geemap.eefolium as geemap
+    import geemap.folium as geemap
     import ee
 
     m = geemap.Map()
